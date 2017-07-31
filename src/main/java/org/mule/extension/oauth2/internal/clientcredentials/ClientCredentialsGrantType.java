@@ -9,7 +9,6 @@ package org.mule.extension.oauth2.internal.clientcredentials;
 import static java.lang.Thread.currentThread;
 import static org.mule.runtime.core.api.lifecycle.LifecycleUtils.initialiseIfNeeded;
 import static org.mule.runtime.http.api.HttpHeaders.Names.AUTHORIZATION;
-
 import org.mule.extension.http.api.HttpResponseAttributes;
 import org.mule.extension.oauth2.internal.AbstractGrantType;
 import org.mule.runtime.api.exception.MuleException;
@@ -17,6 +16,7 @@ import org.mule.runtime.api.lifecycle.InitialisationException;
 import org.mule.runtime.core.api.DefaultMuleException;
 import org.mule.runtime.core.api.registry.RegistrationException;
 import org.mule.runtime.core.api.store.SimpleObjectStoreToMapAdapter;
+import org.mule.runtime.extension.api.annotation.dsl.xml.Xml;
 import org.mule.runtime.extension.api.annotation.param.Optional;
 import org.mule.runtime.extension.api.annotation.param.Parameter;
 import org.mule.runtime.extension.api.runtime.operation.Result;
