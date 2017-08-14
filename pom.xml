@@ -14,8 +14,8 @@
     <version>0.8.x-SNAPSHOT</version>
 
     <properties>
-        <muleHttpConnectorVersion>0.8.2-SNAPSHOT</muleHttpConnectorVersion>
-        <muleSocketsConnectorVersion>0.8.2-SNAPSHOT</muleSocketsConnectorVersion>
+        <muleHttpConnectorVersion>0.8.x-SNAPSHOT</muleHttpConnectorVersion>
+        <muleSocketsConnectorVersion>0.8.x-SNAPSHOT</muleSocketsConnectorVersion>
 
         <commonsCodecVersion>1.9</commonsCodecVersion>
         <formatterConfigPath>formatter.xml</formatterConfigPath>
